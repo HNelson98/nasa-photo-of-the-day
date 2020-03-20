@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
+import ImageList from './pictureCards/images';
+import ApodHeader from './Header/mainHead'
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+        <ApodHeader/>
+        <ImageList/>
     </div>
   );
 }
